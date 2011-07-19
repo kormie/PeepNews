@@ -7,15 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TDProductList.h"
+#import "AppDelegate.h"
 
 int main (int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+      TDProductList * productList = [TDProductList new];
+      NSLog(@"Products: %@", [productList products]);
+      [productList release];
     }
     return 0;
 }
