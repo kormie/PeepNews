@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0186B9C613D611F700FBABF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0186B9C513D611F700FBABF8 /* Foundation.framework */; };
+		0186B9C913D611F700FBABF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0186B9C813D611F700FBABF8 /* main.m */; };
+		0186B9CD13D611F700FBABF8 /* PeepNews.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0186B9CC13D611F700FBABF8 /* PeepNews.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0186B9BF13D611F700FBABF8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0186B9CD13D611F700FBABF8 /* PeepNews.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0186B9C113D611F700FBABF8 /* PeepNews */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PeepNews; sourceTree = BUILT_PRODUCTS_DIR; };
+		0186B9C513D611F700FBABF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0186B9C813D611F700FBABF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0186B9CB13D611F700FBABF8 /* PeepNews-Prefix.pch */ = {isa = PBXFileReference; path = "PeepNews-Prefix.pch"; sourceTree = "<group>"; };
+		0186B9CC13D611F700FBABF8 /* PeepNews.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PeepNews.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0186B9BE13D611F700FBABF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0186B9C613D611F700FBABF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0186B9B613D611F600FBABF8 = {
+			isa = PBXGroup;
+			children = (
+				0186B9C713D611F700FBABF8 /* PeepNews */,
+				0186B9C413D611F700FBABF8 /* Frameworks */,
+				0186B9C213D611F700FBABF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0186B9C213D611F700FBABF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0186B9C113D611F700FBABF8 /* PeepNews */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0186B9C413D611F700FBABF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0186B9C513D611F700FBABF8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0186B9C713D611F700FBABF8 /* PeepNews */ = {
+			isa = PBXGroup;
+			children = (
+				0186B9C813D611F700FBABF8 /* main.m */,
+				0186B9CC13D611F700FBABF8 /* PeepNews.1 */,
+				0186B9CA13D611F700FBABF8 /* Supporting Files */,
+			);
+			path = PeepNews;
+			sourceTree = "<group>";
+		};
+		0186B9CA13D611F700FBABF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0186B9CB13D611F700FBABF8 /* PeepNews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0186B9C013D611F700FBABF8 /* PeepNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0186B9D013D611F700FBABF8 /* Build configuration list for PBXNativeTarget "PeepNews" */;
+			buildPhases = (
+				0186B9BD13D611F700FBABF8 /* Sources */,
+				0186B9BE13D611F700FBABF8 /* Frameworks */,
+				0186B9BF13D611F700FBABF8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeepNews;
+			productName = PeepNews;
+			productReference = 0186B9C113D611F700FBABF8 /* PeepNews */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0186B9B813D611F600FBABF8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0186B9BB13D611F600FBABF8 /* Build configuration list for PBXProject "PeepNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0186B9B613D611F600FBABF8;
+			productRefGroup = 0186B9C213D611F700FBABF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0186B9C013D611F700FBABF8 /* PeepNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0186B9BD13D611F700FBABF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0186B9C913D611F700FBABF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0186B9CE13D611F700FBABF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0186B9CF13D611F700FBABF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0186B9D113D611F700FBABF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeepNews/PeepNews-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0186B9D213D611F700FBABF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeepNews/PeepNews-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0186B9BB13D611F600FBABF8 /* Build configuration list for PBXProject "PeepNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0186B9CE13D611F700FBABF8 /* Debug */,
+				0186B9CF13D611F700FBABF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0186B9D013D611F700FBABF8 /* Build configuration list for PBXNativeTarget "PeepNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0186B9D113D611F700FBABF8 /* Debug */,
+				0186B9D213D611F700FBABF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0186B9B813D611F600FBABF8 /* Project object */;
+}
